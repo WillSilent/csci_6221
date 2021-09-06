@@ -1,42 +1,38 @@
-# csci_6221（开发的话，尽量使用dev分支，我们所有的代码都先提交到dev分支上去，然后最后合并到master分支。）
-GWU CSCI_6221 Advanced Software Paradigms：
+# GWU_CSCI_6221 Advanced Software Paradigms
+Group members: Tianheng Wu, Jenny Fisher, Yiming Liang, Wen Liu
 
-仓库地址：https://github.com/WillSilent/csci_6221.git
+If don’t know how to use Git, you can visit this website first. Basically there is introduction.：https://git-scm.com/book/zh/v2/
 
-不懂得git如何使用的，可以先看一下这个网站，基本上都有介绍：https://git-scm.com/book/zh/v2/
+```
+1.Initialize the repo in an existing directory
+$ cd /c/user/my_project
+$ git init
 
-### 1.获取或建立repo
+2.If you are versioning in a folder with existing files (not an empty folder), you should start tracking these files and make the initial commit. You can use the git add command to specify the required files for tracking, and then execute git commit：
+$ git add *.c
+$ git add LICENSE
+$ git commit -m 'initial project version
 
-#### 1.1 在已存在目录中初始化仓库
+3.Clone an existing repo
+The command to clone a repository is git clone <url>. For example, to clone the Git link library libgit2, you can use the following command:
+$ git clone https://github.com/libgit2/libgit2
 
-- ​	进入已存在目录后初始化目录，
+If you want to customize the name of the local repo when cloning a remote repo, you can specify a new directory name with additional parameters:
+$ git clone https://github.com/libgit2/libgit2 mylibgit
 
-  ```
-  $ cd /c/user/my_project
-  $ git init
-  ```
+4.each change updates to the repo
+Check current file status:
+$ git status
 
-- 如果在一个已存在文件的文件夹（而非空文件夹）中进行版本控制，你应该开始追踪这些文件并进行初始提交。可以通过 git add 命令来指定所需的文件来进行追踪，然后执行 git commit ：
+Track new files
+$ git add README
 
-  ```
-  $ git add *.c
-  $ git add LICENSE
-  $ git commit -m 'initial project version
-  ```
+Submit an update
+$ git commit -m "comment..."
 
-#### 1.2 克隆现有的仓库
-
-- 克隆仓库的命令是 git clone <url> 。 比如，要克隆 Git 的链接库 libgit2，可以用下面的命令：
-
-  ```
-  $ git clone https://github.com/libgit2/libgit2
-  ```
-
-- 如果你想在克隆远程仓库的时候，自定义本地仓库的名字，你可以通过额外的参数指定新的目录名：
-
-  ```
-  $ git clone https://github.com/libgit2/libgit2 mylibgit
-  ```
+5.Push to remote repo
+$ git push origin master
+```
 
 
 
