@@ -1,8 +1,8 @@
 # GWU_CSCI_6221 Advanced Software Paradigms
 Group members: Tianheng Wu, Jenny Fisher, Yiming Liang, Wen Liu
 
-first presentation slide：https://docs.google.com/presentation/d/10fPzRJKapS7T-0VcfcUySRjqKje9DJozMasQeG2W-CA/edit#slide=id.gf4a2de055e_12_0
-second presentation slide：https://docs.google.com/presentation/d/1eUYHv9UQpJ4d9GBfFFpgmSqsrwC0Bcr2fbo9pE9ACi8/edit#slide=id.gc6f75fceb_0_0
+# first presentation slide：https://docs.google.com/presentation/d/10fPzRJKapS7T-0VcfcUySRjqKje9DJozMasQeG2W-CA/edit#slide=id.gf4a2de055e_12_0
+# second presentation slide：https://docs.google.com/presentation/d/1eUYHv9UQpJ4d9GBfFFpgmSqsrwC0Bcr2fbo9pE9ACi8/edit#slide=id.gc6f75fceb_0_0
 
 
 
